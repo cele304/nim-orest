@@ -1,7 +1,7 @@
 let username, password;
 let loginFlag = false, gameInProgress = false;
 let mainGame;
-let url = "http://localhost:3000/";
+let url = "https://nim-orest.onrender.com/";
 let divsArray = ["homePageDiv", "gameFormDiv", "gameDiv", "restartGameDiv", "leaveGameDiv", "rankingDiv", "rulesDiv"];
 
 let homePageDiv = document.getElementById("homePageDiv");
